@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #fafafa;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #3f5a8b;
+}
+#chat-wrap {
+  max-width: 60%;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#chat-window {
+  height: 300px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+#output p {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#output p:nth-child(even) {
+  background-color: rgb(96, 137, 173);
+}
+
+#feedback p{
+  padding: 10px;
+  font-size: 14px;
+}
+
+#output strong {
+  color: #3f5a8b;
+}
+
+input {
+  font-family: Consolas, monospace;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+}
+
+button {
+  font-family: Consolas, monospace;
+  background-color: #3f5a8b;
+  color: #fff;
+  border: 1px solid #ccc;
+  height: 40px;
+  border-radius: 0 0 5px 5px;
+  padding: 10px 0px;
+  font-size: 18px;
+  line-height: 1.5;
+  display: block;
+  width: 100%;
+}
