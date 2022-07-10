@@ -14,7 +14,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 socket.on("chat", (data) => {
-    feedback.innerHTML = "";
+  feedback.innerHTML = "";
   output.innerHTML +=
     "<p><strong>" + data.sender + "</strong>" + data.message + "</p>";
   message.value = "";
